@@ -1,0 +1,81 @@
+footer {
+    padding: 100px 0;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+  .footer-main {
+    display: flex;
+    gap: 32px;
+    align-self: center;
+    flex-wrap: wrap-reverse;
+  }
+  .footer-1 {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-self: flex-end;
+  }
+  
+  .sec-4 {
+    display: flex;
+    padding: 0px 8px;
+    align-items: flex-start;
+    gap: 24px;
+  }
+  .footer-2 {
+    flex-wrap: wrap;
+    display: flex;
+    gap: 24px;
+  }
+  .sec-5 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 56px;
+  }
+  .footer-2 p {
+    line-height: 25px;
+  }
+  .footer-sec {
+    display: flex;
+    padding: 0px 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  .sec-6 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 31px;
+  }
+  .sec-7 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 56px;
+  }
+  
+  .footer-3 {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+  }
+  .footer-3 > div {
+    display: flex;
+    gap: 8px;
+    padding: 0px 20% 0 0;
+    align-items: center;
+  }
+  .vector5 {
+    border: 1px solid;
+    width: 0px;
+    height: 12px;
+    color: #112232;
+    background-color: #112232;
+  }

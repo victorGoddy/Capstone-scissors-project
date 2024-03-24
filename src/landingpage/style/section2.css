@@ -1,0 +1,145 @@
+#section2 {
+  display: flex;
+  flex-direction: column;
+  gap: 128px;
+  padding-bottom: 130px;
+}
+.Headsec {
+  gap: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 20px;
+  max-width: 100%;
+  color: #141414;
+  padding: 60px 140px;
+  align-items: center;
+  background: #f9fbfd;
+  justify-content: space-between;
+}
+.Headsec h2 {
+  line-height: 40px;
+}
+
+.Frame1 {
+  gap: 72px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.Frame1-0 {
+  display: flex;
+  gap: inherit;
+}
+.Frame1-0 > div {
+  max-width: 100px;
+  align-items: center;
+}
+.mainsec {
+  display: flex;
+  width: 90%;
+  gap: 96px;
+  align-self: center;
+  flex-wrap: wrap;
+}
+.mainsec-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 16px;
+}
+.mainsec-1-0 {
+  color: #141414;
+  width: 370px;
+  font-size: 40px;
+  display: flex;
+  gap: 16px;
+  font-family: "Josefin Sans", sans-serif;
+  justify-content: end;
+  line-height: 32px;
+  align-items: center;
+}
+.code {
+  width: 4px;
+  height: 48px;
+  background-image: linear-gradient(to bottom, #112232, #4d6b88, #fff);
+}
+.Ellipse {
+  width: 56px;
+  height: 56px;
+  flex-shrink: 0;
+  border-radius: 56px;
+  background: rgba(50, 132, 255, 0.13);
+  display: flex;
+  justify-content: center;
+}
+.mainsec-1-1 {
+  display: flex;
+  height: 192px;
+  width: 290px;
+  flex-direction: column;
+  color: var(--text-color-main-text, #141414);
+  font-size: 16px;
+  line-height: 28px;
+}
+.mainsec-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 64px;
+}
+.mainsec-2-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+  max-width: 340px;
+}
+.one {
+  gap: 28px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+.sec-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+@media only screen and (max-width: 1024px) {
+  .Frame1 {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .Frame1 > div {
+    width: fit-content;
+    align-items: center;
+  }
+  .Frame1 > div > p {
+    width: fit-content;
+    align-items: center;
+  }
+  .mainsec {
+    justify-content: center;
+  }
+  .mainsec-1 {
+    width: 100%;
+    align-items: center;
+  }
+  .mainsec-1-0 {
+    width: 100%;
+    justify-content: center;
+  }
+  .mainsec-1-1 {
+    width: 100%;
+    text-align: center;
+    height: fit-content;
+    justify-content: center;
+  }
+  .mainsec-2 {
+    width: 100%;
+    align-items: center;
+  }
+  .mainsec > .one > div{
+    align-items: center;
+  }
+}

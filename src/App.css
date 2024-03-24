@@ -1,0 +1,287 @@
+
+@media only screen and (max-width: 1024px) {
+    header {
+      display: flex;
+      flex-direction: column;
+      background-image: linear-gradient(
+        to bottom right,
+        #fbf5f4,
+        #eeede2,
+        #fbf9e9,
+        #ffffff99,
+        #ffffff99
+      );
+      position: fixed;
+      right: 0;
+      margin: 0;
+      width: 60%;
+      min-height: 95vh;
+      z-index: 10;
+      padding: 10px 0 30px 0;
+      gap: 0px;
+      display: none;
+      justify-content: flex-start;
+      gap: 40px;
+    }
+    .logo {
+      margin: 30px 0 10px 0;
+    }
+    .nav2 {
+      flex-direction: column;
+      gap: 30px;
+    }
+  
+    .one {
+      align-items: center;
+      gap: 28px;
+      /* flex-direction: column; */
+      flex-wrap: wrap;
+    }
+    .top-2 {
+      flex-direction: column;
+      gap: 20px;
+    }
+    .footer-main {
+      gap: 50px;
+      /* flex-direction: column; */
+      /* align-items: center; */
+      justify-content: center;
+    }
+    /*.Frame1 {
+          flex-direction: column;
+          justify-content: space-around;
+          align-items: center;
+      }
+      .Frame1-0{
+      width: 100%;
+      justify-content: space-evenly;
+      } */
+  }
+  
+  @media only screen and (max-width: 834px) {
+    .logo {
+      margin: 10px 0 10px 0;
+    }
+    header {
+      justify-content: flex-start;
+      gap: 30px;
+    }
+    h1 {
+      font-size: 25px;
+      line-height: 30px;
+    }
+    h2 {
+      font-size: 25px;
+    }
+    h3 {
+      font-size: 25px;
+    }
+    .firstdiv {
+      padding: 0 20px;
+    }
+    .firstdiv img {
+      display: none;
+    }
+    .Headsec {
+      flex-direction: column;
+      padding: 30px 20px;
+      gap: 50px;
+    }
+    .one {
+      flex-direction: column;
+    }
+    .forthdiv {
+      padding: 10px;
+      align-items: center;
+      gap: 0px;
+      justify-content: center;
+    }
+    .forthdiv > span {
+      display: none;
+      gap: 0;
+    }
+    .vector2 {
+      top: -120px;
+      width: 150px;
+      height: 150px;
+    }
+    .Frame1 {
+      flex-direction: column;
+      width: 100%;
+    }
+    .Frame1-0 {
+      gap: 0;
+      justify-content: space-around;
+    }
+    #section2 {
+      padding-bottom: 50px;
+    }
+    .top-1 p {
+      font-weight: 200;
+      font-size: 15px;
+    }
+    .top-1 .code {
+      position: relative;
+      left: 5%;
+    }
+    .top-1 h3 {
+      font-size: 25px;
+    }
+    form {
+      padding: 20px;
+    }
+    .three {
+      align-items: center;
+    }
+    input[size] {
+      width: 280px;
+    }
+    .first {
+      padding: 8px 6px;
+      width: 140px;
+    }
+    input[role] {
+      padding: 8px 6px;
+      width: 134px;
+    }
+    .magic-wand {
+      width: 280px;
+    }
+    #FAQ {
+      padding: 0 50px;
+    }
+    #FAQ li {
+      align-items: center;
+      gap: 10px;
+    }
+    #FAQ label {
+      gap: 20px;
+    }
+    #FAQs {
+      padding: 50px 0 100px 0;
+      text-align: center;
+    }
+    .TC {
+      width: 280px;
+      text-align: center;
+    }
+    .frame-22 h3 {
+      font-size: 25px;
+    }
+    /* .footer-2 {
+          justify-content: center;
+      } */
+  }
+  
+  @media only screen and (max-width: 425px) {
+    p {
+      font-size: 12px;
+    }
+    h1 {
+      font-size: 20px;
+    }
+    h2 {
+      font-size: 20px;
+    }
+    h3 {
+      font-size: 20px;
+    }
+    .top-1 h3 {
+      line-height: 30px;
+    }
+    .maindiv {
+      margin-top: 75px;
+    }
+    .maindiv2 {
+      padding-left: 0;
+    }
+    .forthdiv > p {
+      padding: 0 25px;
+      font-weight: 100;
+    }
+    .forthdiv {
+      padding: 0;
+      max-width: 300px;
+    }
+    .vector2 {
+      top: -100px;
+      width: 120px;
+      height: 120px;
+    }
+    #desktop-1 {
+      padding: 42px 0px 50px 0px;
+    }
+    #desktop-10 {
+      padding: 20px 50px;
+    }
+    #desktop-11 {
+      padding: 20px 60px;
+    }
+    #desktop-12 {
+      padding: 20px 50px;
+    }
+    .B2 {
+      padding: 10px 10px;
+    }
+    button {
+      padding: 10px 20px;
+    }
+    section.top-3 {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+    input[size] {
+      width: 200px;
+    }
+    .first {
+      padding: 8px 12px;
+      width: 220px;
+    }
+    input[role] {
+      padding: 8px 12px;
+      width: 195px;
+    }
+    .sss {
+      flex-direction: column;
+    }
+    .magic-wand {
+      width: 220px;
+    }
+    form {
+      padding: 20px 0;
+    }
+    #FAQ {
+      padding: 0 30px;
+    }
+    #FAQ li {
+      align-items: center;
+      gap: 10px;
+    }
+    #FAQ li p {
+      font-size: 10px;
+      line-height: 15px;
+    }
+    #FAQ label {
+      gap: 10px;
+      margin: 0;
+      font-size: 15px;
+    }
+    #FAQs {
+      padding: 50px 0 100px 0;
+      text-align: center;
+    }
+    .footer-2 {
+      display: grid;
+      grid-template-columns: 40% 40%;
+    }
+    /*.footer-3{  
+           justify-content: center;
+      } */
+    .logo {
+      margin-top: 25%;
+    }
+    .logo img {
+      height: 17px;
+    }
+  }

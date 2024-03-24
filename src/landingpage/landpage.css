@@ -1,0 +1,73 @@
+:root {
+    --maincolor--: #141414;
+    --primarycolor--: #005ae2;
+    --bodycolor--: #fff;
+    --maintext--: "Josefin Sans", sans-serif;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  /* ********************************* */
+  h1 {
+    margin: 0%;
+    font-family: var(--maintext--);
+  }
+  h2 {
+    font-family: "Josefin Sans", sans-serif;
+    color: #141414;
+    margin: 0px;
+  }
+  h3 {
+    font-family: "Josefin Sans", sans-serif;
+    margin: 0px;
+    font-size: 35px;
+  }
+  h4 {
+    color: inherit;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 20px;
+    margin: 0%;
+  }
+  h5 {
+    margin: 0%;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+  }
+  h6 {
+    font-size: 20px;
+    font-family: "Josefin Sans", sans-serif;
+    margin: 0%;
+  }
+  a {
+    text-decoration: none;
+    color: var(--maincolor--);
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 18px;
+  }
+  button {
+    padding: 10px 40px;
+    height: 44px;
+    border-style: none;
+    border-radius: 100px;
+    background-color: var(--primarycolor--);
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+  }
+  span > a {
+    text-decoration: none;
+    color: var(--primarycolor--);
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 15px;
+  }
+  p {
+    font-family: "Josefin Sans", sans-serif;
+    margin: 0px;
+    font-size: 15px;
+  }
+  span {
+    color: var(--primarycolor--);
+    font-family: "Josefin Sans", sans-serif;
+  }
+  
